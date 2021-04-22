@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 0.2rem;
+}
+.name a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 0.5rem;
+}
+.toggle-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  border-radius: 20px;
+}
+@media (max-width: 545px) {
+  .toggle-button {
+    display: flex;
+    top: 1.3rem;
+  }
+
+
+  .home {
+    top: 2rem;
+    align-items: flex-start;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .taska {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
+@media (min-width: 545px) {
+  .produkt::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    transition: width 0.4s;
+  }
+  .produkt:hover::after {
+    width: 100%;
+
+    transition: width 0.4s;
+  }
+
+  .barva
+  {
+    height: 100vh;
+  }
+}
+
+
+.video1 {
+  height: auto;
+}
+
+.video1 video {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.pozadi {
+  background-color: black;
+}
+
+.popisek1::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width 0.4s;
+}
+
+.popisek1:hover::after {
+  width: 100%;
+
+  transition: width 0.4s;
+}
+
+.popisek3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width 0.4s;
+}
+
+.popisek3:hover::after {
+  width: 100%;
+
+  transition: width 0.4s;
+}
+
+.popisek2::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.4s;
+}
+
+.popisek2:hover::after {
+  width: 100%;
+
+  transition: width 0.4s;
+}
+
+::selection {
+  background-color: grey;
+  color: white;
+}
+
+.container
+{
+  
+  text-align: center;
+}
+
+
+.produkty
+{
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  position: flex;
+}
+
+
+@media (min-width: 545px) {
+.iph1:hover
+{
+  cursor: pointer;
+ margin-top: -7%;
+ transition: linear 0.2s;
+}
+}
+
+@media (max-width: 545px) {
+  .produkty
+{
+  background-color: black;
+  height: 200vh;
+  width: 100%;
+  
+}
+  }
+
+
+  @media (min-width: 545px) {
+    .iphone12container
+    {
+      margin-top: 150%
+    
+    }
+   
+    }
+
+    @media (min-width: 547px) {
+      .iphone12container
+      {
+        margin-top: 5%
+      
+      }
+     
+        .produkty
+        {
+          height: 180%;
+        }
+      
+      }
+      input[type=text], select {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        
+        border: 1px solid rgb(75, 75, 75);
+        border-radius: 4px;
+        
+      }
+      
+      input[type=submit] {
+        width: 50%;
+        background-color: #1a1a1a;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .form {
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #797979;
+      }
+      
+      .zprava
+      {
+        height: 150px;
+      }
