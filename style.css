@@ -250,7 +250,7 @@ body {
       
       input[type=submit] {
         width: 50%;
-        background-color: #1a1a1a;
+        background-color: #4CAF50;
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
@@ -266,7 +266,7 @@ body {
       }
       
       input[type=submit]:hover {
-        background-color: #797979;
+        background-color: #45a049;
       }
       
       .zprava
